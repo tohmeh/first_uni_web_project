@@ -1,0 +1,286 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #dbcbbe;
+    margin-left: 6%;
+    transition: opacity 0.5s ease;
+
+}
+
+body.fade-out {
+    opacity: 0;
+}
+
+.cooking_site_tag{
+    font-family:Barbie Vintage;padding-top:10px ;font-size: large;color: #8780ad;
+}
+
+.title1 {
+    font-family: 'Barbie Vintage Extrude';
+    color: #a5e2e9;
+}
+
+.title2 {
+    font-family: "Barbie Vintage";
+    color: #8e85c0;
+}
+
+@media (max-width :1400px)
+{
+    .title1 , .title2 {
+        font-size: medium;
+    }
+    .title1{
+        margin-top: 20px;
+    }
+    .cooking_site_tag{
+        font-size: small;
+    }
+
+}
+@media (max-width :1000px)
+{   .title1 , .title2 {
+        font-size: x-small;
+    }
+    .title1{
+        margin-top: 20px;
+    }
+    .cooking_site_tag{
+        font-size: small;
+    }
+}
+.mainpage {
+
+
+    width: 93%;
+    height: 16.2cm;
+    border-radius: 20px;
+    align-items: center;
+
+    margin-top: 90px;
+
+}
+
+.nav_bar {
+    left: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    float: top;
+    background-color: #aac9ce;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+
+.slide2 {
+    background-color: #f5f2dc;
+    width: 93%;
+    height: 16.2cm;
+    border-radius: 20px;
+    align-items: center;
+    border: solid 7px #69433A;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    margin-top: 90px;
+}
+
+.cake {
+    height: 1.2cm;
+    width: 1.2cm;
+    margin-top: 0.2cm;
+    margin-left: 0.4cm;
+}
+
+.pot {
+    height: 1cm;
+    width: 1cm;
+    margin-top: 0.4cm;
+}
+
+.salad {
+
+    height: 1.2cm;
+    width: 1.2cm;
+    margin-top: 0.25cm;
+    margin-left: 0.4cm;
+}
+
+.home {
+    height: 1.1cm;
+    width: 1.1cm;
+    margin-top: 0.3cm;
+    margin-right: 0.4cm;
+}
+
+.recipie_title {
+    font-family: "Barbie Vintage";
+    color: #9c98b3;
+    font-size: xx-large;
+    margin-top: 0.3cm;
+}
+
+.cookbutton {
+    background-color: #e9d8a5;
+    background-size: cover;
+    width: 5cm;
+    height: 1.8cm;
+    margin-right: 2cm;
+    margin-top: 5cm;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border: 4px solid;
+    border-style: dotted;
+    border-color: #886b64;
+    color: #6b6687;
+    font-family: "Barbie Vintage";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.cookbutton:hover {
+    box-shadow: 0px 0px 8px rgba(201, 144, 144, 0.6);
+    background-color: #af9479;
+}
+
+.cookbutton2 {
+    background-color: #dbaade;
+    background-size: cover;
+    width: 5cm;
+    height: 1.8cm;
+    margin-right: 2cm;
+    margin-top: 2cm;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border: 4px solid;
+    border-style: dotted;
+    border-color: #52f3db;
+    color: #6b6687;
+    font-family: "Barbie Vintage";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.cookbutton2:hover {
+    box-shadow: 0px 0px 8px rgba(187, 50, 50, 0.6);
+    background-color: #c093c2;
+}
+
+.cookbutton3 {
+    background-color: #a5e9a5;
+    background-size: cover;
+    width: 5cm;
+    height: 1.8cm;
+    margin-right: 2.5cm;
+    margin-top: 2.5cm;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius: 15px 255px;
+    border: 4px solid;
+    border-style: dotted;
+    border-color: #648864;
+    color: #6b6687;
+    font-family: "Barbie Vintage";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cookbutton3:hover {
+    box-shadow: 0px 0px 8px rgba(201, 144, 144, 0.6);
+    background-color: #79af79;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.donut {
+    width: 6cm;
+    height: 6cm;
+    animation: rotate 15s linear infinite;
+
+}
+
+.slide3 {
+    background-color: #f5f2dc;
+    width: 100%;
+    height: 18.2cm;
+    align-items: center;
+    border-top: solid 7px #69433A;
+    margin-top: 90px;
+    position: absolute;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.page {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
