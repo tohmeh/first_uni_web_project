@@ -1,6 +1,6 @@
 # Cooking Website
 
-A static recipe website built as a first university web project, presenting dishes across three categories — main courses, desserts, and salads — with a warm handwritten aesthetic and a contact form.
+A static recipe website built as a first university web project, presenting dishes across three categories: main courses, desserts, and salads; with a warm handwritten aesthetic and a contact form.
 
 ## Features
 
